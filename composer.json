@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "valearkot\\my-module\\": "src/"
+            "valearkot\\mymodule\\": "src/"
         }
     }
 }

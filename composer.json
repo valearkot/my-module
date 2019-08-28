@@ -1,0 +1,24 @@
+{
+    "name": "valearkot/my-module",
+    "description": "Test",
+    "keywords": ["test", "composer", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valer Kotenko",
+            "email": "Valerakot97@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "valearkot\\my-module\\": "src/"
+        }
+    }
+}
